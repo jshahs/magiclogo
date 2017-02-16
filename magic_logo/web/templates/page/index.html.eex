@@ -1,36 +1,69 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+<div >
+    <div class="h1">Hey...Download The Free Logo In 3 Steps..</div>
+    <div class="h1">Just Enter Company Name..</div>
+    <div class="flexsearch">
+      <div class="flexsearch--wrapper">
+         <div class="flexsearch--form" action="" method="">
+            <div class="flexsearch--input-wrapper">
+               <input class="flexsearch--input" id="textV" type="text" placeholder="search"/>
+            </div>
+            <input class="flexsearch--submit" type="" onclick="searchImage()" value="&#10140;"/>
+         </div>
+      </div>
+    </div>
 </div>
+<!-- SERVICES - Content
+ ##################################################################################################################
+ -->
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
+<section class="services_content">
+  <div class="h1"> How It Works </div>
+<div class="container">
+<div class="row" id="services_icons">
+  <div class="span12">
 
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-</div>
+                <div class="row">
+                    <div class="span4">
+                        <img src="../images/icon_design.jpg" alt="design">
+                            <h3>DESIGN</h3>
+                            <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.</p>
+                            </div>
+
+                    <div class="span4">
+                        <img src="../images/icon_develop.jpg" alt="develop">
+                            <h3>DEVELOPMENT</h3>
+                            <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.</p>
+                            </div>
+
+                    <div class="span4">
+                        <img src="../images/icon_support.jpg" alt="support">
+                            <h3>SUPPORT</h3>
+                            <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.</p>
+                            </div>
+                </div>
+                <hr>
+              </div>
+
+       <!-- /CTA Section -->
+
+    </div>
+<!-- container -->
+</section>
+<!-- services-content -->
+
+
+</section>
+<!-- services -->
+
+
+
+<script>
+
+   var searchImage = function(){
+      var value = document.getElementById('textV').value;
+      var url = "/logos/" + value;
+      document.location =  url ;
+      console.log('searh image called');
+      console.log(value);
+   }
+</script>
