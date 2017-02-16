@@ -35,6 +35,9 @@
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
+    <footer class="footer">
+      <div class="footer-copyright">&copy; All rights reserved. Coded by <a href="#">Shahid Shaik</a>. Designed by <a href="#">magiclogo.in</a></div>
+		</footer>
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
