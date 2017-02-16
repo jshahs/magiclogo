@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello MagicLogo!</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <header class="header1" id="header">
+			<div class="header__logo">
+				<!-- Logo-->
+				<div class="logo"><a href="index.html">MagicLogo</a></div>
+			</div>
+			<div class="header__nav">
+				<!-- Navigation-->
+				<div id="mobnav-btn"><i class="fa fa-bars"></i></div>
+				<ul class="main-nav sf-menu">
+					<li class="current"><a href="page-about-2.html">Login</a></li>
+					<li class="current"><a href="page-about-2.html">About Us</a></li>
+			</div>
+			<div class="header__aside">
+				<!-- Side Navigation--><a class="side-panel-btn nav-pushy-btn" href="#"><span class="side-panel-btn__line"></span><span class="side-panel-btn__line"></span><span class="side-panel-btn__line"></span></a>
+			</div>
+		</header>
+
+      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+      <main role="main">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+
+    </div> <!-- /container -->
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>

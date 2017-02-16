@@ -1,0 +1,84 @@
+2017-02-13 14:58:49.373 [error] <0.193.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.198.0> exit with reason normal in context child_terminated
+2017-02-13 14:58:49.456 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-02-13 14:58:49.486 [info] <0.31.0> Application ibrowse started on node nonode@nohost
+2017-02-13 14:58:49.486 [info] <0.31.0> Application httpotion started on node nonode@nohost
+2017-02-13 14:58:49.501 [info] <0.31.0> Application idna started on node nonode@nohost
+2017-02-13 14:58:49.507 [info] <0.31.0> Application mimerl started on node nonode@nohost
+2017-02-13 14:58:49.514 [info] <0.31.0> Application certifi started on node nonode@nohost
+2017-02-13 14:58:49.519 [info] <0.31.0> Application ssl_verify_fun started on node nonode@nohost
+2017-02-13 14:58:49.524 [info] <0.31.0> Application metrics started on node nonode@nohost
+2017-02-13 14:58:49.568 [info] <0.31.0> Application hackney started on node nonode@nohost
+2017-02-13 14:58:49.568 [info] <0.31.0> Application httpoison started on node nonode@nohost
+2017-02-13 14:58:49.576 [info] <0.31.0> Application decimal started on node nonode@nohost
+2017-02-13 14:58:49.584 [info] <0.31.0> Application poolboy started on node nonode@nohost
+2017-02-13 14:58:49.591 [info] <0.31.0> Application ecto started on node nonode@nohost
+2017-02-13 14:58:49.591 [info] <0.31.0> Application phoenix_ecto started on node nonode@nohost
+2017-02-13 14:58:49.605 [info] <0.31.0> Application connection started on node nonode@nohost
+2017-02-13 14:58:49.636 [info] <0.31.0> Application db_connection started on node nonode@nohost
+2017-02-13 14:58:49.636 [info] <0.31.0> Application mariaex started on node nonode@nohost
+2017-02-13 14:58:57.089 [warning] <0.30.0> lager_error_logger_h dropped 40 messages in the last second that exceeded the limit of 50 messages/sec
+2017-02-13 14:58:57.089 [info] <0.31.0> Application fs started on node nonode@nohost
+2017-02-13 14:58:57.089 [info] <0.31.0> Application phoenix_live_reload started on node nonode@nohost
+2017-02-16 15:42:52.410 [error] <0.311.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.316.0> exit with reason normal in context child_terminated
+2017-02-16 15:42:52.484 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-02-16 15:42:52.515 [info] <0.31.0> Application ibrowse started on node nonode@nohost
+2017-02-16 15:42:52.515 [info] <0.31.0> Application httpotion started on node nonode@nohost
+2017-02-16 15:42:52.529 [info] <0.31.0> Application idna started on node nonode@nohost
+2017-02-16 15:42:52.534 [info] <0.31.0> Application mimerl started on node nonode@nohost
+2017-02-16 15:42:52.536 [info] <0.31.0> Application certifi started on node nonode@nohost
+2017-02-16 15:42:52.539 [info] <0.31.0> Application ssl_verify_fun started on node nonode@nohost
+2017-02-16 15:42:52.542 [info] <0.31.0> Application metrics started on node nonode@nohost
+2017-02-16 15:42:52.583 [info] <0.31.0> Application hackney started on node nonode@nohost
+2017-02-16 15:42:52.583 [info] <0.31.0> Application httpoison started on node nonode@nohost
+2017-02-16 15:42:52.591 [info] <0.31.0> Application decimal started on node nonode@nohost
+2017-02-16 15:42:52.595 [info] <0.31.0> Application poolboy started on node nonode@nohost
+2017-02-16 15:42:52.598 [info] <0.31.0> Application ecto started on node nonode@nohost
+2017-02-16 15:42:52.598 [info] <0.31.0> Application phoenix_ecto started on node nonode@nohost
+2017-02-16 15:42:52.608 [info] <0.31.0> Application connection started on node nonode@nohost
+2017-02-16 15:42:52.622 [info] <0.31.0> Application db_connection started on node nonode@nohost
+2017-02-16 15:42:52.622 [info] <0.31.0> Application mariaex started on node nonode@nohost
+2017-02-16 15:43:08.241 [warning] <0.30.0> lager_error_logger_h dropped 60 messages in the last second that exceeded the limit of 50 messages/sec
+2017-02-16 15:43:08.242 [info] <0.31.0> Application fs started on node nonode@nohost
+2017-02-16 15:43:08.242 [info] <0.31.0> Application phoenix_live_reload started on node nonode@nohost
+2017-02-16 19:51:16.565 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.189.0> exit with reason normal in context child_terminated
+2017-02-16 19:51:16.629 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-02-16 19:51:16.677 [info] <0.31.0> Application ibrowse started on node nonode@nohost
+2017-02-16 19:51:16.677 [info] <0.31.0> Application httpotion started on node nonode@nohost
+2017-02-16 19:51:16.697 [info] <0.31.0> Application idna started on node nonode@nohost
+2017-02-16 19:51:16.702 [info] <0.31.0> Application mimerl started on node nonode@nohost
+2017-02-16 19:51:16.705 [info] <0.31.0> Application certifi started on node nonode@nohost
+2017-02-16 19:51:16.708 [info] <0.31.0> Application ssl_verify_fun started on node nonode@nohost
+2017-02-16 19:51:16.711 [info] <0.31.0> Application metrics started on node nonode@nohost
+2017-02-16 19:51:16.754 [info] <0.31.0> Application hackney started on node nonode@nohost
+2017-02-16 19:51:16.755 [info] <0.31.0> Application httpoison started on node nonode@nohost
+2017-02-16 19:51:16.762 [info] <0.31.0> Application decimal started on node nonode@nohost
+2017-02-16 19:51:16.766 [info] <0.31.0> Application poolboy started on node nonode@nohost
+2017-02-16 19:51:16.774 [info] <0.31.0> Application ecto started on node nonode@nohost
+2017-02-16 19:51:16.774 [info] <0.31.0> Application phoenix_ecto started on node nonode@nohost
+2017-02-16 19:51:16.787 [info] <0.31.0> Application connection started on node nonode@nohost
+2017-02-16 19:51:16.820 [info] <0.31.0> Application db_connection started on node nonode@nohost
+2017-02-16 19:51:16.820 [info] <0.31.0> Application mariaex started on node nonode@nohost
+2017-02-16 19:51:23.298 [warning] <0.30.0> lager_error_logger_h dropped 42 messages in the last second that exceeded the limit of 50 messages/sec
+2017-02-16 19:51:23.298 [info] <0.31.0> Application fs started on node nonode@nohost
+2017-02-16 19:51:23.298 [info] <0.31.0> Application phoenix_live_reload started on node nonode@nohost
+2017-02-16 19:59:11.862 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.189.0> exit with reason normal in context child_terminated
+2017-02-16 19:59:11.932 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-02-16 19:59:11.961 [info] <0.31.0> Application ibrowse started on node nonode@nohost
+2017-02-16 19:59:11.961 [info] <0.31.0> Application httpotion started on node nonode@nohost
+2017-02-16 19:59:11.978 [info] <0.31.0> Application idna started on node nonode@nohost
+2017-02-16 19:59:11.983 [info] <0.31.0> Application mimerl started on node nonode@nohost
+2017-02-16 19:59:11.987 [info] <0.31.0> Application certifi started on node nonode@nohost
+2017-02-16 19:59:11.990 [info] <0.31.0> Application ssl_verify_fun started on node nonode@nohost
+2017-02-16 19:59:11.995 [info] <0.31.0> Application metrics started on node nonode@nohost
+2017-02-16 19:59:12.038 [info] <0.31.0> Application hackney started on node nonode@nohost
+2017-02-16 19:59:12.038 [info] <0.31.0> Application httpoison started on node nonode@nohost
+2017-02-16 19:59:12.046 [info] <0.31.0> Application decimal started on node nonode@nohost
+2017-02-16 19:59:12.051 [info] <0.31.0> Application poolboy started on node nonode@nohost
+2017-02-16 19:59:12.058 [info] <0.31.0> Application ecto started on node nonode@nohost
+2017-02-16 19:59:12.059 [info] <0.31.0> Application phoenix_ecto started on node nonode@nohost
+2017-02-16 19:59:12.070 [info] <0.31.0> Application connection started on node nonode@nohost
+2017-02-16 19:59:12.099 [info] <0.31.0> Application db_connection started on node nonode@nohost
+2017-02-16 19:59:12.099 [info] <0.31.0> Application mariaex started on node nonode@nohost
+2017-02-16 19:59:23.925 [warning] <0.30.0> lager_error_logger_h dropped 43 messages in the last second that exceeded the limit of 50 messages/sec
+2017-02-16 19:59:23.926 [info] <0.31.0> Application fs started on node nonode@nohost
+2017-02-16 19:59:23.926 [info] <0.31.0> Application phoenix_live_reload started on node nonode@nohost
